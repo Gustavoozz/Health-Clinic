@@ -66,7 +66,7 @@ namespace webapi.healthclinic.Repositories
 
         public List<TiposDeUsuario> Listar()
         {
-            throw new NotImplementedException();
+            return c.TipoUsuario!.ToList();
         }
     }
 }

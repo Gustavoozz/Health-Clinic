@@ -12,8 +12,8 @@ using webapi.healthclinic.codefirst.Contexts;
 namespace webapi.healthclinic.Migrations
 {
     [DbContext(typeof(HealthClinicContext))]
-    [Migration("20230928042512_BD")]
-    partial class BD
+    [Migration("20230929174622_DB")]
+    partial class DB
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -147,7 +147,7 @@ namespace webapi.healthclinic.Migrations
 
                     b.Property<string>("CRM")
                         .IsRequired()
-                        .HasColumnType("VARCHAR(50)");
+                        .HasColumnType("VARCHAR(14)");
 
                     b.Property<Guid>("IdClinica")
                         .HasColumnType("uniqueidentifier");
@@ -184,7 +184,7 @@ namespace webapi.healthclinic.Migrations
 
                     b.Property<string>("DataNascimento")
                         .IsRequired()
-                        .HasColumnType("VARCHAR(10)");
+                        .HasColumnType("VARCHAR(11)");
 
                     b.Property<Guid>("IdUsuario")
                         .HasColumnType("uniqueidentifier");

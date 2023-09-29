@@ -17,7 +17,7 @@ namespace webapi.healthclinic.codefirst.Contexts
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Server=NOTE18-S14; Database=event+_tarde; user id=sa; pwd=Senai@134; TrustServerCertificate=True");
+            optionsBuilder.UseSqlServer("Server=NOTE18-S14; Database=webapi.healthclinic; user id=sa; pwd=Senai@134; TrustServerCertificate=True");
             base.OnConfiguring(optionsBuilder);
         }
     }

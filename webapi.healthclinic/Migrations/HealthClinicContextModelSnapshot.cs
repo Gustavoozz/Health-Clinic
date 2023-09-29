@@ -144,7 +144,7 @@ namespace webapi.healthclinic.Migrations
 
                     b.Property<string>("CRM")
                         .IsRequired()
-                        .HasColumnType("VARCHAR(50)");
+                        .HasColumnType("VARCHAR(14)");
 
                     b.Property<Guid>("IdClinica")
                         .HasColumnType("uniqueidentifier");
@@ -181,7 +181,7 @@ namespace webapi.healthclinic.Migrations
 
                     b.Property<string>("DataNascimento")
                         .IsRequired()
-                        .HasColumnType("VARCHAR(10)");
+                        .HasColumnType("VARCHAR(11)");
 
                     b.Property<Guid>("IdUsuario")
                         .HasColumnType("uniqueidentifier");

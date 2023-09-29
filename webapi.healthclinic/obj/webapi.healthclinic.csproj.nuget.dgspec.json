@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Dell\\Desktop\\⠀⠀⠀⠀⠀⠀⠀⠀⠀\\Health-ClinicProject\\webapi.healthclinic\\webapi.healthclinic.csproj": {}
+    "C:\\Users\\53844614893\\Desktop\\Health-Clinic\\webapi.healthclinic\\webapi.healthclinic.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Dell\\Desktop\\⠀⠀⠀⠀⠀⠀⠀⠀⠀\\Health-ClinicProject\\webapi.healthclinic\\webapi.healthclinic.csproj": {
+    "C:\\Users\\53844614893\\Desktop\\Health-Clinic\\webapi.healthclinic\\webapi.healthclinic.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Dell\\Desktop\\⠀⠀⠀⠀⠀⠀⠀⠀⠀\\Health-ClinicProject\\webapi.healthclinic\\webapi.healthclinic.csproj",
+        "projectUniqueName": "C:\\Users\\53844614893\\Desktop\\Health-Clinic\\webapi.healthclinic\\webapi.healthclinic.csproj",
         "projectName": "webapi.healthclinic",
-        "projectPath": "C:\\Users\\Dell\\Desktop\\⠀⠀⠀⠀⠀⠀⠀⠀⠀\\Health-ClinicProject\\webapi.healthclinic\\webapi.healthclinic.csproj",
-        "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Dell\\Desktop\\⠀⠀⠀⠀⠀⠀⠀⠀⠀\\Health-ClinicProject\\webapi.healthclinic\\obj\\",
+        "projectPath": "C:\\Users\\53844614893\\Desktop\\Health-Clinic\\webapi.healthclinic\\webapi.healthclinic.csproj",
+        "packagesPath": "C:\\Users\\53844614893\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\53844614893\\Desktop\\Health-Clinic\\webapi.healthclinic\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\53844614893\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

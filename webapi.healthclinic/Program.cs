@@ -64,10 +64,10 @@ builder.Services.AddSwaggerGen(options =>
     {
         Version = "v1",
         Title = "API - Health Clinic",
-        Description = "API para gereciamento de uma clínica de saúde - Backend API",
+        Description = "API to manage a health clinic - Backend API",
         Contact = new OpenApiContact
         {
-            Name = "Gustavo",
+            Name = "Gustavo Magalhães",
             Url = new Uri("https://github.com/Gustavoozz")
         }
     });
