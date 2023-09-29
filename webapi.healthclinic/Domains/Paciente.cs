@@ -17,9 +17,12 @@ namespace webapi.healthclinic.Domains
         public string? NomePaciente { get; set; }
 
 
-        [Column(TypeName = "VARCHAR(11)")]
-        [Required(ErrorMessage = "O CPF do paciente é obrigatório!")]
-        public string? DataNascimento { get; set; }
+
+        [Column(TypeName = "DATE")]
+        [Required(ErrorMessage = "A data de nascimento do paciente é obrigatória!")]
+        [DataType(DataType.Date)]
+        [DisplayFormat(ApplyFormatInEditMode = true, DataFormatString = "{0:dd/MM/yyyy}")]
+        public DateTime? DataNascimento { get; set; }
 
 
         // Ref. Tabela Usuario = FK.

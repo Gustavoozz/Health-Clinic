@@ -20,12 +20,15 @@ namespace webapi.healthclinic.Domains
         public string? DescricaoConsulta { get; set; }
 
 
-        [Column(TypeName = "DATETIME")]
+
+        [Column(TypeName = "TIME")]
         [Required(ErrorMessage = "O horário do agendamento é obrigatório!")]
-        public DateTime HorarioAgendamento { get; set; }
+        [DataType(DataType.Time)]
+        [DisplayFormat(ApplyFormatInEditMode = true, DataFormatString = @"hh\:mm")]
+        public TimeSpan? HorarioAgendamento { get; set; }
 
 
-        //Ref. Tabela Paciente = FK
+        //Ref. Tabela Paciente = FKN
 
         [Required(ErrorMessage = "O paciente é obrigatório!")]
         public Guid IdPaciente { get; set; }
